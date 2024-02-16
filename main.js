@@ -63,4 +63,8 @@ for (let current = 20; ; current = current + 1){
     }
 }
 
+//a fragment of code that produces a value is called an expression. if an expression corresponds to a sentence fragment, a JavaScript statement corresponds to a full sentence. a program is a list of statements.
 
+for (let number = 0; number <= 12; number +=2) {
+  console.log(number);
+}
