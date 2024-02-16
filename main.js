@@ -68,3 +68,18 @@ for (let current = 20; ; current = current + 1){
 for (let number = 0; number <= 12; number +=2) {
   console.log(number);
 }
+
+//for counter += 1 and counter -= 1, there are even shorter equivalents: counter++ and counter--.
+
+let number = 2;
+switch (number) {
+  case 1:
+    console.log("one");
+    break;
+  case 2:
+    console.log("two");
+    break;
+  default:
+    console.log("three");
+    break;
+}
